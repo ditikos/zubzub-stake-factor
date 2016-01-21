@@ -42,6 +42,11 @@ proc zubzub::display_array {} {
 }
 
 
+# initialize + parse
 zubzub::init
+
+# alter row 8
 zubzub::populate_row 8 curr_sf {1.00}
+
+# a helper to display the array contents
 zubzub::display_array
